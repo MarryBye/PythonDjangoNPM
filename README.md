@@ -1,12 +1,26 @@
 # Python NPM
 
-It`s a test project, where Python (Django Framework), NPM (TS + Sass) works together!
+It`s a test project, which used to create a web app, with using a modern technologies like Django Framework for Backend + Typescript, SASS for frontend.
 
-## To install a new project:
+## Requirements
+
+### Python dependencies:
+1. Recommended Python 3.13.7
+2. Django 5.2.7
+3. Dotenv 1.2.1
+
+### NodeJS Dependencies
+
+1. NodeJS 11.6.1
+2. Typescript 5.9.3
+3. SASS 1.93.3
+
+## To install a new project
 1. Initialize npm ``npm init`` (already done in `frontend/` directory)
 2. Install Typescript and SASS modules ``npm install typescript sass`` (already done in `frontend/` directory)
-3. Initialize Typescript ``npx tsc --init``
-4. Create .env file in the root directory with next secrets:
+3. Initialize Typescript ``npx tsc --init`` (already done in `frontend/` directory)
+4. Install python requirements with terminal: ``pip install -r requirements.txt``
+5. Create .env file in the root directory with next secrets:
    1. ``DJANGO_KEY`` - secret key for your Django Server
    2. ``SETTINGS_FILE`` - name of the settings file, which will be used (dev, prod or default)
 
