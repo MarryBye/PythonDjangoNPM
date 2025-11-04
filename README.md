@@ -1,6 +1,6 @@
 # Python NPM
 
-It`s a test project, which used to create a web app, with using a modern technologies like Django Framework for Backend + Typescript, SASS for frontend.
+It`s a test project, which used to create a web app, with using a modern technologies like Django Framework for Backend + Typescript, SASS, Bootstrap for frontend.
 
 ## Requirements
 
@@ -14,10 +14,11 @@ It`s a test project, which used to create a web app, with using a modern technol
 1. NodeJS 11.6.1
 2. Typescript 5.9.3
 3. SASS 1.93.3
+4. Bootstrap 5.3.8
 
 ## To install a new project
 1. Initialize npm ``npm init`` (already done in `frontend/` directory)
-2. Install Typescript and SASS modules ``npm install typescript sass`` (already done in `frontend/` directory)
+2. Install Typescript and SASS modules ``npm install typescript sass bootstrap`` (already done in `frontend/` directory)
 3. Initialize Typescript ``npx tsc --init`` (already done in `frontend/` directory)
 4. Install python requirements with terminal: ``pip install -r requirements.txt``
 5. Create .env file in the root directory with next secrets:

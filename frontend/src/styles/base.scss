@@ -1,6 +1,7 @@
+@use "../../node_modules/bootstrap/scss/bootstrap" as * with (
+  $primary: #6c5ce7
+);
+
 body {
-  background-color: #f5f5f5;
-  button {
-    background-color: #bf3838;
-  }
+  background-color: #555555;
 }
